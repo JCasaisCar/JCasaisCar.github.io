@@ -1,0 +1,67 @@
+:root {
+    --deep-blue: #0D3B66;
+    --bright-turquoise: #2EC4B6;
+    --solar-yellow: #FF9F1C;
+    --dark-gray: #3D3D3D;
+    --white: #FFFFFF;
+}
+
+.bgWhite {
+    background-color: var(--white);
+}
+
+.bgDeepBlue {
+    background-color: var(--deep-blue);
+}
+
+.bgBrightTurquoise {
+    background-color: var(--bright-turquoise);
+}
+
+.bgSolarYellow {
+    background-color: var(--solar-yellow);
+}
+
+.bgDarkGray {
+    background-color: var(--dark-gray);
+}
+
+body {
+    background-color: var(--white);
+    color: var(--dark-gray);
+}
+
+header {
+    background-color: var(--deep-blue);
+    color: var(--white);
+}
+
+header a {
+    color: var(--white);
+}
+
+button {
+    background-color: var(--bright-turquoise);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--solar-yellow);
+}
+
+nav {
+    background-color: var(--deep-blue);
+    color: var(--white);
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--bright-turquoise);
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- To import the font-awesome icon library, for later use in the list -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+  <script defer src="js/bootstrap.bundle.js"></script>
+  <script defer src="js/alerts.js"></script>
+  <link rel="icon" type="image/png" href="img/jesusNoBackground.png">
+  <title>Sobre Mí - Jesús Casais Carrillo</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bgDeepBlue">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Jesús Casais Carrillo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="aboutme.html">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 py-4">Sobre Mí</h2>
+            <div class="row">
+                <div class="col-md-6 align-content-center">
+                    <p class="lead text-start">¡Hola! Soy <span class="fw-semibold">Jesús</span>, el que te impresionará en el mundo del desarrollo.</p>
+                    <p class="lead text-start"><span class="badge rounded-pill text-bg-info text-white fw-semibold">Mi historia:</span> Desde pequeñito he sido un fanático en el mundo de la informática y el desarrollo, con solo 3 añitos ya estaba trasteando mi primer móvil y con solo 12 añitos desmonté mi primer ordenador llegando con 14 añitos a ser capaz de arreglar cualquier móvil o cualquier ordenador tanto en hardware como en software y desde entonces no paro de crecer tanto en el mundo del desarrollo como en el de técnico aficionado de móviles, ordenadores, y todo lo que lleve chip.</p>
+                    <p class="lead text-start"><span class="badge rounded-pill text-bg-info text-white fw-semibold">Mis estudios:</span> Cuento con el título de la ESO, del Bachillerato Tecnológico y dentro de nada con el de Desarrollador de Aplicaciones WEB.</p>
+                    <p class="lead text-start"><span class="badge rounded-pill text-bg-info text-white fw-semibold">Mis aficiones:</span> Me encanta en mi tiempo libre arreglar móviles y ordenadores, salir con mis amigos, jugar al baloncesto, y sobre todo crear programas y páginas WEB para seguir creciendo en el mundillo.</p>
+                </div>
+                <div class="col-md-6 align-content-center">
+                    <img src="img/jesusNoBackground.png" class="rounded-circle img-thumbnail" alt="Imagen sobre Jesús Casais">
+                </div>
+                <div class="col-md-12 text-center pt-5">
+                    <div id="cvPlaceholder"></div>
+                    <a href="cv/CV_JesusCasaisCarrillo.pdf" class="btn btn-outline-primary me-2 mb-4" download id="cvAlert">Descárgate mi CV</a>
+                    <a href="https://www.linkedin.com/in/jes%C3%BAs-casais-carrillo-jcasaiscar/" class="btn btn-outline-secondary me-2 mb-4" target="_blank">Mi LinkedIn</a>
+                    <a href="https://github.com/JCasaisCar" class="btn btn-outline-dark mb-4" target="_blank">Mi GitHub</a>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="pt-5 pb-3 table-responsive">
+                <h3 class="text-center mb-4">Mis Estudios</h3>
+                <table class="table table-striped table-bordered table-hover border border-2">
+                    <thead class="table-light border border-1">
+                        <tr>
+                            <th scope="col">Título</th>
+                            <th scope="col">Centro</th>
+                            <th scope="col">Año de Inicio</th>
+                            <th scope="col">Año de Fin</th>
+                            <th scope="col">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody class="border border-1">
+                        <tr>
+                            <td>Técnico Superior en Desarrollo de Aplicaciones Web</td>
+                            <td>ILERNA FP</td>
+                            <td>2023</td>
+                            <td>2025</td>
+                            <td><span class="badge bg-warning">En progreso</span></td>
+                        </tr>
+                        <tr>
+                            <td>Bachillerato Ciencias Tecnológicas</td>
+                            <td>IES Antonio Machado</td>
+                            <td>2021</td>
+                            <td>2023</td>
+                            <td><span class="badge bg-primary bg-info">Completado</span></td>
+                        </tr>
+                        <tr>
+                            <td>Educación Secundaria Obligatoria (ESO)</td>
+                            <td>IES Antonio Machado</td>
+                            <td>2017</td>
+                            <td>2021</td>
+                            <td><span class="badge bg-primary bg-info">Completado</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <!-- Skills Section -->
+        <div class="p-5 bg-light">
+            <h3 class="text-center mb-4">Mis Habilidades</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <!-- "fas" to indicate that the solid icon set from the imported Font Awesome icon library is being used -->
+                    <!-- "fa-code" to indicate that the desired icon is "code" -->
+                    <!-- "me-3" for a right margin of 3 -->
+                    <i class="fas fa-code me-3"></i> Desarrollo en Java
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-database me-3"></i> Bases de datos SQL
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-laptop-code me-3"></i> Desarrollo web con HTML, CSS y JavaScript
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-code-branch me-3"></i> Control de versiones con Git
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bgDeepBlue text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-md-start text-sm-center">
+                    <p>&copy; 2024 Jesús Casais Carrillo | Todos los derechos reservados</p>
+                </div>
+                <div class="col-md-6 col-sm-12 text-md-end text-sm-center">
+                    <a href="cv/CV_JesusCasaisCarrillo.pdf" class="btn btn-outline-light me-2" download>CV</a>
+                    <a href="https://www.linkedin.com/in/jes%C3%BAs-casais-carrillo-jcasaiscar/" class="btn btn-outline-light me-2" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/JCasaisCar" class="btn btn-outline-light" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

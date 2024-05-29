@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/bootstrap.bundle.js"></script>
+  <script defer src="js/alerts.js"></script>
+  <link rel="icon" type="image/png" href="img/jesusNoBackground.png">
+  <title>Inicio - Jesús Casais Carrillo</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bgDeepBlue">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Jesús Casais Carrillo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="inicio" class="py-5 text-center bgBrightTurquoise text-white">
+        <div class="container">
+            <h1 class="display-1 mb-5">¡Bienvenido a Mi Mundo!</h1>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/phrase1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/phrase2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/phrase3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/phrase4.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Proyectos</h2>
+            <p class="lead mb-4">¿Quieres ver mis increíbles proyectos?</p>
+            <a href="gallery.html" class="btn btn-outline-info me-2">Haz clic aquí</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="pt-5 pb-4 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Sobre Mí</h2>
+            <p class="lead mb-4">¡Hola! Soy Jesús, aquel que te impresionará en el mundo del desarrollo.</p>
+            <a href="aboutme.html" class="btn btn-outline-info me-2">Aprende más sobre mí</a>
+            <br><br>
+            <div id="cvPlaceholder"></div>
+            <a href="cv/CV_JesusCasaisCarrillo.pdf" class="btn btn-outline-primary me-2 mb-4" download id="cvAlert">Descarga mi CV</a>
+            <a href="https://www.linkedin.com/in/jes%C3%BAs-casais-carrillo-jcasaiscar/" class="btn btn-outline-secondary me-2 mb-4" target="_blank">Mi LinkedIn</a>
+            <a href="https://github.com/JCasaisCar" class="btn btn-outline-dark mb-4" target="_blank">Mi GitHub</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">¡Contáctame!</h2>
+            <!-- Links -->
+            <div class="text-center">
+                <p class="lead mb-4">¡Hola! ¿Quieres contactar conmigo?</p>
+                <a href="contact.html" class="btn btn-outline-info me-2">Ve al formulario de contacto</a>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bgDeepBlue text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-md-start text-sm-center">
+                    <p>&copy; 2024 Jesús Casais Carrillo | Todos los derechos reservados</p>
+                </div>
+                <div class="col-md-6 col-sm-12 text-md-end text-sm-center">
+                    <a href="cv/CV_JesusCasaisCarrillo.pdf" class="btn btn-outline-light me-2" download>CV</a>
+                    <a href="https://www.linkedin.com/in/jes%C3%BAs-casais-carrillo-jcasaiscar/" class="btn btn-outline-light me-2" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/JCasaisCar" class="btn btn-outline-light" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
